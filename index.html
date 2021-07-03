@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Half past three, y'all!</title>
+</head>
+
+<body onload="startAnim()">
+    <header>
+        <h1>
+            WOTR &nbsp; FM
+        </h1>
+        <p>Otis Redding Radio</p>
+    </header>
+
+    <main>
+        <div class="controls">
+            <audio id="song" type="audio/mpeg" src="/assets/media/mcb.mp3" controls loop>
+                Your browser does not support the <code>audio</code> element.
+            </audio>
+            <div class="anim-ctrl">
+                Animations: &nbsp;
+                <span class="off-on"></span>
+            </div>
+        </div>
+        <img id="otis" class="" height=350 src="assets/images/otis.png" alt="otis redding">
+    </main>
+
+    <footer>
+        <p>
+            &#10052; &nbsp;
+            All Otis Redding!
+            &nbsp; &#10052; &nbsp;
+            All Merry Christmas, Baby!
+            &nbsp; &#10052; &nbsp;
+            All THE TIME!
+            &nbsp; &#10052;
+        </p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
